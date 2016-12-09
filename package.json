@@ -1,0 +1,19 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies" : {
+     "ws" : "latest"
+  }
+  ,
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Fastcode Lab",
+  "license": "MIT"
+}
