@@ -1,6 +1,6 @@
 var localVideoElem = null, remoteVideoElem = null, localVideoStream = null,
     videoCallButton = null, endCallButton = null,
-    peerConn = null, wsc = new WebSocket('ws://radium.informatik.tu-cottbus.de/websocket/'),
+    peerConn = null, wsc = new WebSocket('ws://35.165.207.128:3434'),
     peerConnCfg = {'iceServers': 
       [{'url': 'stun:stun.services.mozilla.com'}, {'url': 'stun:stun.l.google.com:19302'}]
     };
